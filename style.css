@@ -9,6 +9,9 @@
 html,body{
     width: 100%;
     height:100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body{
@@ -1100,6 +1103,7 @@ footer{
         z-index: 99;
     }
     .features-wrapper-description{
+        width: 400px;
     }
     .advantages-area-jackpot{
         width: 400px;
@@ -1109,7 +1113,12 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-
+    .ingridient-image{
+        display: none;
+    }
+    .describing-jackpot, .describing-excellence, .describing-membership{
+        width: 85%;
+    }
 
 
 }
