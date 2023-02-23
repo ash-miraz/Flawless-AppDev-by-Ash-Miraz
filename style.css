@@ -903,6 +903,22 @@ footer{
     /* Making Responsive*/
 
 @media only screen and (max-width: 1450px){
+    .hero-header{
+        width: 80%;
+    }
+    .hero-header>h2{
+        font-size: 22px;
+    }
+    .features-vector-object{
+        display: none;
+    }
+    .hero-header>a{
+        display: block;
+        padding: 20px 0;
+        color: #ff00c3 !important;
+    }
+}
+@media only screen and (max-width: 450px){
     .built-in-object{
         display: none;
     }
@@ -976,6 +992,9 @@ footer{
         margin-top: 50px;
     }
 
+    .hero-header{
+        width: 80%;
+    }
     .hero-header h2{
         color: #ffffff;        
     }
